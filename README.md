@@ -35,7 +35,7 @@ The next step is to notify PM team using the first URL, in this case `ecom-584-c
 This template is for notify DevOp when the ticket is ready to be deployed.
 
  - Feature Deployment: [FD Real Estate Partnership](https://ecom-584-cesar-dev.real-estate.aceable.marketing/real-estate-partnerships)
- > Before pasting CMS page, check If you already added the data from the WIP page to the origin page (The page you used to make a copy)
+ > Before pasting CMS page, check If you already added the data from the WIP page to the origin page (The page you used to make a copy) after merging you need to delete your wip page.
  - CMS Page: [CMS Real State Partnerships](http://mktultra.staging.wpengine.com/re/wp-admin/post.php?post=3958&action=edit) 
  - Description:  In case you need to add something
 ### Working on / Ready for QA
