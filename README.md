@@ -38,9 +38,8 @@ This template is for notify DevOp when the ticket is ready to be deployed.
 -   Feature Deployment: [https://ecom-584-cesar-dev.real-estate.aceable.marketing/real-estate-partnerships](https://ecom-584-cesar-dev.real-estate.aceable.marketing/real-estate-partnerships)
 -   CMS PAGE: [http://mktultra.staging.wpengine.com/re/wp-admin/post.php?post=3958&action=edit](http://mktultra.staging.wpengine.com/re/wp-admin/post.php?post=3958&action=edit)
 -   Branch: [https://github.com/aceable/pyramid/tree/ECOM-584-CESAR-DEV](https://github.com/aceable/pyramid/tree/ECOM-584-CESAR-DEV)
--   Description: This ticket is already approved [https://github.com/aceable/pyramid/pull/547](https://github.com/aceable/pyramid/pull/547)
-    
- - Description:  In case you need to add something
+-   Description: This ticket is already approved [https://github.com/aceable/pyramid/pull/547](https://github.com/aceable/pyramid/pull/547) 
+-   Description:  In case you need to add something
 ### Working on / Ready for QA
 This template is for notify DevOp when the ticket should not be deployed.
 -   Status: Not Ready to be deployed ❌    
