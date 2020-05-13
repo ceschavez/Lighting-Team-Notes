@@ -47,10 +47,9 @@ This template is for notify DevOp when the ticket should not be deployed.
 -   Branch: [https://github.com/aceable/pyramid/tree/ECOM-584-CESAR-DEV](https://github.com/aceable/pyramid/tree/ECOM-584-CESAR-DEV)
 -   Description: This ticket is already approved [https://github.com/aceable/pyramid/pull/547](https://github.com/aceable/pyramid/pull/547) 
 
-## UPDATE Feature Deployment
+[Feature Deployment UPDATED](#updated-feature-deployment)
 
-
- 1. Install now cli `sudo npm i -g now`
+1. Install now cli `sudo npm i -g now`
 2. `yarn deploy` > feature > local
 	> In case of error: Cannot read property '$t' of undefined
 	> `Just comment all lines with **getAuthors** from node_modules/sheetsy/index.js`
@@ -91,3 +90,5 @@ This template is for notify DevOp when the ticket should not be deployed.
 	    		- Generating ALL static files takes a while for driving. Maybe comment out some of routes in the tmp/src/nuxt.config.js`.
 
 
+
+# Span Elements
