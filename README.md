@@ -1,7 +1,11 @@
 
 # Lighting Team Notes
 
-## Feature Deployment
+ - ✅[Feature Deployment Updated](#feature-deployment-updated)
+ - [Release Templates](#release-templates)
+ - 🚨[Feature Deployment Deprecated](#feature-deployment-deprecated)
+
+## Feature Deployment Deprecated
 
 > Previously, you need to have configured your Zeit account. If you don't have it, please contact David Broadlick to have access.
 
@@ -47,9 +51,7 @@ This template is for notify DevOp when the ticket should not be deployed.
 -   Branch: [https://github.com/aceable/pyramid/tree/ECOM-584-CESAR-DEV](https://github.com/aceable/pyramid/tree/ECOM-584-CESAR-DEV)
 -   Description: This ticket is already approved [https://github.com/aceable/pyramid/pull/547](https://github.com/aceable/pyramid/pull/547) 
 
-  
-* [Span Elements](#markdown-header-span-elements)
-[Feature Deployment](#markdown-header-feature-deployment)
+## Feature Deployment UPDATED
 
  1. Install now cli `sudo npm i -g now`
 2. `yarn deploy` > feature > local
@@ -90,8 +92,3 @@ This template is for notify DevOp when the ticket should not be deployed.
 	    		- More info found at https://nuxtjs.org/api/internals-generator#hooks
 	    	◦ Faster file generation
 	    		- Generating ALL static files takes a while for driving. Maybe comment out some of routes in the tmp/src/nuxt.config.js`.
-
-
-
-# Feature Deployment
-# Span Elements
