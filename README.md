@@ -46,3 +46,48 @@ This template is for notify DevOp when the ticket should not be deployed.
 -   WIP CMS PAGE: [http://mktultra.staging.wpengine.com/re/wp-admin/post.php?post=3958&action=edit](http://mktultra.staging.wpengine.com/re/wp-admin/post.php?post=3958&action=edit)
 -   Branch: [https://github.com/aceable/pyramid/tree/ECOM-584-CESAR-DEV](https://github.com/aceable/pyramid/tree/ECOM-584-CESAR-DEV)
 -   Description: This ticket is already approved [https://github.com/aceable/pyramid/pull/547](https://github.com/aceable/pyramid/pull/547) 
+
+## UPDATE Feature Deployment
+
+
+ 1. Install now cli `sudo npm i -g now`
+2. `yarn deploy` > feature > local
+	> In case of error: Cannot read property '$t' of undefined
+	> `Just comment all lines with **getAuthors** from node_modules/sheetsy/index.js`
+	
+3. After deploy just follow the next info:
+
+
+		Finished! 🎉
+    
+	    We've created a tmp directory which contains the assembled build, and ran yarn install.
+	        
+	    Run yarn gen-local to generate static files against your local database defined in your sub project's .env.local file. This will build within the folder tmp/src/dist.
+	        
+	    OR
+	        
+	    Run yarn feature-local to generate static files against pyramid's staging wordpress database and jarvis endpoints defined in your sub project's .env.dev file. This will build within the folder tmp/src/dist.
+	    
+	    In order to deploy your feature local generation after build, move into your dist folder at ./tmp/src/dist and run the command 'now'.
+	    
+	    Use the following these selections:
+	        
+	    	? Set up and deploy “pyramid/tmp/src/dist”? [Y/n] y
+	    	? Which scope do you want to deploy to? Aceable
+	    	? Found project “aceable/dist”. Link to it? [Y/n] y
+	                
+	        
+	    Tips:
+	    	◦ Run ENV_FILE=production yarn gen-local to pull data from prod (not staging).
+	    	◦ After you buid once with yarn gen-local, you can use yarn gen-local --no-build this way you're not rebuilding the JS files each time. --no-build is a nuxt generate option.
+	        
+	    Some debugging examples:
+	    	◦ Static Server
+	    		- After you generate static files via yarn gen-local, run yarn local-server which starts a server from tmp/src/dist. This uses your local mkt-ultra data.
+	    	◦ Nuxt Hooks
+	    		- These provide a wealth of information! Add a hook to the tmp/src/nuxt.config.js, log its parameters. Generate hooks will run after you run yarn gen-local.
+	    		- More info found at https://nuxtjs.org/api/internals-generator#hooks
+	    	◦ Faster file generation
+	    		- Generating ALL static files takes a while for driving. Maybe comment out some of routes in the tmp/src/nuxt.config.js`.
+
+
