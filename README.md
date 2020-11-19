@@ -11,7 +11,11 @@ XGRIT api
 http://stg.xgritapi.com/apidocs/
 
 ## Deployment Links
-
+### Instructions to deploy
+#### CMS
+https://aceable.atlassian.net/wiki/spaces/DEV/pages/850427945/Production+Deployment+-+Wordpress
+#### Code
+https://aceable.atlassian.net/wiki/spaces/DEV/pages/1395851411/Deploy+Staging+Production
 ### CMS Links
 #### Staging
 http://mktultra.staging.wpengine.com/drv/wp-login.php
