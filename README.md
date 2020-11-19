@@ -1,9 +1,13 @@
 
 # Lighting Team Notes
-
+ - 🔗 [Links](#links)
  - ✅[Feature Deployment Updated](#feature-deployment-updated)
  - [Release Templates](#release-templates)
  - 🚨[Feature Deployment Deprecated](#feature-deployment-deprecated)
+ 
+## Links
+301 Redirects
+https://docs.google.com/spreadsheets/d/1yb9U0X8vBNabmNVKuTrGAUqEaiVQziqkbGNQ2FU3qVA/edit
 
 ## Feature Deployment Deprecated
 
