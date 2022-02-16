@@ -4,7 +4,8 @@
 3. When you accept the invite, go to https://vercel.com/account/tokens and create your token, copy your token
 4. In Pyramid project, look for `providence/.env.local.example` and duplicate to create a copy of that file that will be `providence/.env.local`
 5. In the file paste your Vercel token in variable, i.e `ZIET_NOW_TOKEN=XXxxxXXXxxxxXX`
-6. You should be ready to create feature deployments, try to run `yarn deploy && yarn feature-local && cd tmp/src/dist && vercel` 
+### DEploy Process
+1. You should be ready to create feature deployments, try to run `yarn deploy && yarn feature-local && cd tmp/src/dist && vercel` 
 	1.  Select the project you want to deploy `driving` or `real-estate`
 	2. Select `local` in the next step, next you project will be created on `tmp/src`
 	3. In case you just run `yarn deploy`, run `yarn feature-local` when deploy finishes to generate the static, if you combine the commands it will be automated.
